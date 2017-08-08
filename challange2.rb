@@ -1,9 +1,9 @@
 
  puts "Please enter your age."
- number = gets.to_i
+their_age = gets.to_i
 
  my_age = 27
- their_age = number
+
 
  if their_age > my_age
    puts "We are #{their_age-my_age} years apart."
